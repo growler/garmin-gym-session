@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="8fbe8c53-0f1a-4bc4-9b7e-1234567890ab" name="@Strings.AppName" type="watch-app" entry="GymActivityApp" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.3.0">
+        <iq:products>
+            <!-- Venu family targets; extend as needed -->
+            <iq:product id="venu"/>
+            <iq:product id="venu2"/>
+            <iq:product id="venu2plus"/>
+            <iq:product id="venu2s"/>
+            <iq:product id="venu3"/>
+            <iq:product id="venu3s"/>
+            <iq:product id="venu441mm"/>
+            <iq:product id="venu445mm"/>
+            <iq:product id="venux1"/>
+        </iq:products>
+        <iq:permissions>
+            <!-- Needed for recording activities and heart rate -->
+            <iq:uses-permission id="Fit"/>
+            <iq:uses-permission id="Sensor"/>
+            <iq:uses-permission id="UserProfile"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

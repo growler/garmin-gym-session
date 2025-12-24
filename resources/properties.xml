@@ -1,0 +1,19 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <properties>
+        <property id="restDuration" type="number">30</property>
+    </properties>
+
+    <strings>
+        <string id="AppName">Gym Intervals</string>
+        <string id="restDuration_title">Rest duration (seconds)</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.restDuration" title="@Strings.restDuration_title">
+            <settingConfig type="numeric" />
+        </setting>
+    </settings>
+
+</resources>
+
